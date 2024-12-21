@@ -1,0 +1,24 @@
+{
+  "name": "ethan-test-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "keywords": [],
+  "author": "ethan",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "dependencies": {
+    "ethan-test-package": "^1.0.0"
+  }
+}
